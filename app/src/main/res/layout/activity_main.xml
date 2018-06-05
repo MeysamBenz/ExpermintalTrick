@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.expermintaltrick.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear1"
+        tools:ignore="Orientation"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="2dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/card1"
+            android:text="۱ـ ترفندهای تجربی آشپزی خانگی "
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/btn1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/card5"
+            android:text="۲ـ ترفندهای تجربی لبنیات "
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/btn2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/card2"
+            android:text="۳ـ ترفندهای تجربی عرقیجات "
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/btn3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/card3"
+            android:text="۴ـ ترفندهای تجربی ترشیجات "
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/btn4"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/card6"
+            android:text="۵ـ ترفندهای تجربی گل و گیاه آپارتمانی "
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/btn5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/card7"
+            android:text="۶ـ ترفندهای تجربی مربا و دوشاب(شیره انگور و ...) "
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/btn6"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
