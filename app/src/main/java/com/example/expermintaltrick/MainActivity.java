@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.expermintaltrick.FragmentList.Araggijat;
-import com.example.expermintaltrick.FragmentList.Cooking;
-import com.example.expermintaltrick.FragmentList.DoshabMorabba;
-import com.example.expermintaltrick.FragmentList.Golkhaneh;
-import com.example.expermintaltrick.FragmentList.Labaniiat;
-import com.example.expermintaltrick.FragmentList.Torshijat;
+import com.example.expermintaltrick.FragmentList.Frames.Frame1;
+import com.example.expermintaltrick.FragmentList.Frames.Frame2;
+import com.example.expermintaltrick.FragmentList.Frames.Frame3;
+import com.example.expermintaltrick.FragmentList.Frames.Frame4;
+import com.example.expermintaltrick.FragmentList.Frames.Frame5;
+import com.example.expermintaltrick.FragmentList.Frames.Frame6;
 
 public class MainActivity extends AppCompatActivity  {
 
@@ -48,8 +48,9 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( MainActivity.this, Cooking.class );
+                Intent intent = new Intent( MainActivity.this, Frame1.class );
                 startActivity( intent );
+
 
             }
         } );
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( MainActivity.this, Labaniiat.class );
+                Intent intent = new Intent( MainActivity.this, Frame5.class );
                 startActivity( intent );
 
             }
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( MainActivity.this, Araggijat.class );
+                Intent intent = new Intent( MainActivity.this, Frame3.class );
                 startActivity( intent );
 
             }
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( MainActivity.this, Torshijat.class );
+                Intent intent = new Intent( MainActivity.this, Frame4.class );
                 startActivity( intent );
 
             }
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( MainActivity.this, Golkhaneh.class );
+                Intent intent = new Intent( MainActivity.this, Frame2.class );
                 startActivity( intent );
 
             }
@@ -97,7 +98,7 @@ public class MainActivity extends AppCompatActivity  {
         btn6.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent( MainActivity.this, DoshabMorabba.class );
+                Intent intent = new Intent( MainActivity.this, Frame6.class );
                 startActivity( intent );
             }
         } );

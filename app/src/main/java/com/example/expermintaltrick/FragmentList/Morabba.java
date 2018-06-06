@@ -1,28 +1,25 @@
 package com.example.expermintaltrick.FragmentList;
 
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.expermintaltrick.R;
 
-public class DoshabMorabba extends Fragment{
-    private View view;
+/**
+ * Created by KARIZsystem on 06/06/2018.
+ */
 
-    public DoshabMorabba() {
-    }
-
+public class Morabba extends Fragment {
+    View view;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate( R.layout.doshab_morabba,container,false );
-        RecyclerView recyclerView = (RecyclerView) view.findViewById( R.id.recycler1 );
-
-        return view;
+        view = inflater.inflate( R.layout.morraba,container,false );
+        return  view;
     }
 }

@@ -40,7 +40,8 @@
                    android:text="MeysamBenz"
                    android:layout_margin="20dp"
                    android:textSize="15sp"
-                   android:id="@+id/description"/>
+                   android:id="@+id/description"
+                   android:gravity="right"/>
 
 
 

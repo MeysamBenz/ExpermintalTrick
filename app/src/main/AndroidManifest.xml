@@ -16,13 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FragmentList.Cooking" />
-        <activity android:name=".FragmentList.Labaniiat" />
-        <activity android:name=".FragmentList.Araggijat" />
-        <activity android:name=".FragmentList.Torshijat" />
-        <activity android:name=".FragmentList.Golkhaneh" />
-        <activity android:name=".FragmentList.DoshabMorabba" />
-        <activity android:name=".FragmentList.FrameLayoutFragment"></activity>
+
+        <activity android:name=".FragmentList.Frames.Frame1" />
+        <activity android:name=".FragmentList.Frames.Frame2" />
+        <activity android:name=".FragmentList.Frames.Frame3" />
+        <activity android:name=".FragmentList.Frames.Frame4" />
+        <activity android:name=".FragmentList.Frames.Frame5" />
+        <activity android:name=".FragmentList.Frames.Frame6" />
+        <activity android:name=".FragmentList.Frames.Frame7"></activity>
     </application>
 
 </manifest>
